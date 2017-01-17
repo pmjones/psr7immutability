@@ -1,6 +1,6 @@
 # PSR-7 Immutability Testing
 
-Tests the immutability of PSR-7 _ServerRequestInterface_ implememtations.
+Tests the immutability of PSR-7 _ServerRequestInterface_ implementations.
 
 To run the tests:
 
