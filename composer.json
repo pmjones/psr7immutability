@@ -1,0 +1,28 @@
+{
+    "name": "pmjones/psr7immutability",
+    "description": "Tests immutability of PSR-7 implementations.",
+    "type": "library",
+    "require-dev": {
+        "pds/skeleton": "1.x",
+        "guzzlehttp/psr7": "~1.0",
+        "zendframework/zend-diactoros": "~1.0",
+        "slim/slim": "~3.0",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul M. Jones",
+            "email": "pmjones88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
